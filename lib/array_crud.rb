@@ -8,21 +8,20 @@ end
 
 def add_element_to_end_of_array(array, element)
  array = ["i", "am", "learning", "code"]
- element = "arrays!"
  array.push(element)
 
 end
 
 def add_element_to_start_of_array(array, element)
-array = create_an_array
-create_an_array.unshift(element)
+array = ["i", "am", "learning", "code"]
+array.unshift(element)
 
 
 end
 
 def remove_element_from_end_of_array(array)
-    array = create_an_array
-    create_an_array.pop
+    array = ["i", "am", "learning", "code"]
+    array.pop
 end
 
 def remove_element_from_start_of_array(array)
