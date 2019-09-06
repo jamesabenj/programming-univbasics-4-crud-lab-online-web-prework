@@ -9,7 +9,7 @@ end
 def add_element_to_end_of_array(array, element)
  array = ["i", "am", "learning", "code"]
  element = "today"
- add_element_to_end_of_array.push(element)
+ array.push(element)
 
 end
 
